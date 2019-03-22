@@ -11,7 +11,8 @@ We are using tensorflow to get the postion.
 Updating positions and velocities can be done at infinitesimal time steps ∆t according to the
 following equations,
 
-x_t+∆t = x_t + ~v_t * ∆t + a_t * ∆t^2
+x_t+∆t = x_t + v_t * ∆t + a_t * ∆t^2
+
 v_t+∆t = v_t + a_t * ∆t
 
 where,
